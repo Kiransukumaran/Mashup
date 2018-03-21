@@ -1,0 +1,252 @@
+{
+ "kind": "customsearch#search",
+ "url": {
+  "type": "application/json",
+  "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+ },
+ "queries": {
+  "request": [
+   {
+    "title": "Google Custom Search - India",
+    "totalResults": "93200000",
+    "searchTerms": "India",
+    "count": 3,
+    "startIndex": 1,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "014895584601959425565:xys-2mm-7xg"
+   }
+  ],
+  "nextPage": [
+   {
+    "title": "Google Custom Search - India",
+    "totalResults": "93200000",
+    "searchTerms": "India",
+    "count": 3,
+    "startIndex": 4,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "014895584601959425565:xys-2mm-7xg"
+   }
+  ]
+ },
+ "context": {
+  "title": "Google"
+ },
+ "searchInformation": {
+  "searchTime": 0.654393,
+  "formattedSearchTime": "0.65",
+  "totalResults": "93200000",
+  "formattedTotalResults": "93,200,000"
+ },
+ "items": [
+  {
+   "kind": "customsearch#result",
+   "title": "India's Republic Day 2018",
+   "htmlTitle": "\u003cb\u003eIndia&#39;s\u003c/b\u003e Republic Day 2018",
+   "link": "https://www.google.com/doodles/indias-republic-day-2018",
+   "displayLink": "www.google.com",
+   "snippet": "Jan 26, 2018 ... On this day in 1950, India solidified its sovereignty by putting into effect the \nConstitution of India, a governing document that took nearly three years of careful \ndeliberation to finalize, and whose eventual enactment was joyfully celebrated \nacross the country. The first Republic Day was commemorated with a ...",
+   "htmlSnippet": "Jan 26, 2018 \u003cb\u003e...\u003c/b\u003e On this day in 1950, \u003cb\u003eIndia\u003c/b\u003e solidified its sovereignty by putting into effect the \u003cbr\u003e\nConstitution of \u003cb\u003eIndia\u003c/b\u003e, a governing document that took nearly three years of careful \u003cbr\u003e\ndeliberation to finalize, and whose eventual enactment was joyfully celebrated \u003cbr\u003e\nacross the country. The first Republic Day was commemorated with a&nbsp;...",
+   "cacheId": "ctqpAEanEDkJ",
+   "formattedUrl": "https://www.google.com/doodles/indias-republic-day-2018",
+   "htmlFormattedUrl": "https://www.google.com/doodles/\u003cb\u003eindias\u003c/b\u003e-republic-day-2018",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "355",
+      "height": "142",
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa1wu9dZmzNzVk3bbv_1l7_EwhqzN6rVhDXhWYqKpxSeqksaSSxptj42Tr"
+     }
+    ],
+    "metatags": [
+     {
+      "og:title": "India's Republic Day 2018",
+      "twitter:card": "summary_large_image",
+      "twitter:site": "@GoogleDoodles",
+      "twitter:title": "India's Republic Day 2018",
+      "og:image": "http://www.google.com/logos/doodles/2018/indias-republic-day-2018-5861462944776192-2x.jpg",
+      "twitter:image": "http://www.google.com/logos/doodles/2018/indias-republic-day-2018-5861462944776192-2x.jpg",
+      "og:image:width": "1150",
+      "og:image:height": "460",
+      "og:type": "website",
+      "og:description": "Celebrating India's Republic Day! #GoogleDoodle",
+      "twitter:description": "Celebrating India's Republic Day! #GoogleDoodle"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "http://www.google.com/logos/doodles/2018/indias-republic-day-2018-5861462944776192-2x.jpg"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "PM Modi Visits Dubai: Growing Investment From The UAE Into India ...",
+   "htmlTitle": "PM Modi Visits Dubai: Growing Investment From The UAE Into \u003cb\u003eIndia\u003c/b\u003e ...",
+   "link": "https://www.google.com/newsstand/s/posts/CAIiENfOS98dU7_Q24LeNpReQ2UqFQgEKg0IACoGCAowrqkBMKBFMLKAAg/PM+Modi+Visits+Dubai%3A+Growing+Investment+From+The+UAE+Into+India+Is+Boosting+Bilateral+Ties",
+   "displayLink": "www.google.com",
+   "snippet": "4 days ago ... As Indian Prime Minister Narendra Modi visits the UAE this weekend, his second \ntrip to the country in less than three years, both the UAE and India are redefining \ntheir positions on the world stage. The UAE is raising its eyes to look beyond \nEurope and the U.S., reaffirming its commitment to deeper bilateral ...",
+   "htmlSnippet": "4 days ago \u003cb\u003e...\u003c/b\u003e As \u003cb\u003eIndian\u003c/b\u003e Prime Minister Narendra Modi visits the UAE this weekend, his second \u003cbr\u003e\ntrip to the country in less than three years, both the UAE and \u003cb\u003eIndia\u003c/b\u003e are redefining \u003cbr\u003e\ntheir positions on the world stage. The UAE is raising its eyes to look beyond \u003cbr\u003e\nEurope and the U.S., reaffirming its commitment to deeper bilateral&nbsp;...",
+   "cacheId": "BssaazBp4BAJ",
+   "formattedUrl": "https://www.google.com/.../PM+Modi+Visits+Dubai%3A+Growing+ Investment+From+The+UAE+Into+India+Is+Boosting+Bilateral+Tie...",
+   "htmlFormattedUrl": "https://www.google.com/.../PM+Modi+Visits+Dubai%3A+Growing+ Investment+From+The+UAE+Into+\u003cb\u003eIndia\u003c/b\u003e+Is+Boosting+Bilateral+Tie...",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "310",
+      "height": "163",
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvnqwN7fzOPRCtPNfKQhxsAw_DYJm7Bmuov3ncNuEFOv3oRL2tlu25y6Tq"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no",
+      "apple-itunes-app": "app-id=588647136",
+      "fb:app_id": "123694841080850",
+      "og:site_name": "Forbes",
+      "twitter:site": "@forbes",
+      "author": "Suparna Dutt D'Cunha",
+      "og:title": "PM Modi Visits Dubai: Growing Investment From The UAE Into India Is Boosting Bilateral Ties",
+      "og:image": "https://thumbor.forbes.com/thumbor/600x315/smart/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F633081124%2F960x0.jpg%3Ffit%3Dscale",
+      "og:updated_time": "2018-02-08T03:09:20-05:00",
+      "og:url": "https://www.forbes.com/sites/suparnadutt/2018/02/08/pm-modi-visits-dubai-growing-investment-from-the-uae-into-india-is-boosting-bilateral-ties/",
+      "og:description": "PM Modi’s visit underlines the importance both countries attach to accelerating economic growth and maintaining regional peace and stability.",
+      "og:type": "article",
+      "twitter:card": "summary_large_image",
+      "twitter:title": "PM Modi Visits Dubai: Growing Investment From The UAE Into India Is Boosting Bilateral Ties",
+      "twitter:description": "PM Modi’s visit underlines the importance both countries attach to accelerating economic growth and maintaining regional peace and stability.",
+      "twitter:image": "https://thumbor.forbes.com/thumbor/600x300/smart/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F633081124%2F960x0.jpg%3Ffit%3Dscale",
+      "twitter:creator": "@suparnadutt",
+      "article:publisher": "https://www.facebook.com/forbes",
+      "article:author": "Suparna Dutt D'Cunha",
+      "article:section": "Asia",
+      "article:section_url": "https://www.forbes.com/asia/",
+      "article:id": "blogAndPostId/blog/post/4622-3284",
+      "article:published": "2018-02-08",
+      "article:modified": "2018-02-08"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://thumbor.forbes.com/thumbor/600x315/smart/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F633081124%2F960x0.jpg%3Ffit%3Dscale"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Pink ODI: Why South Africa will wear pink against India at ...",
+   "htmlTitle": "Pink ODI: Why South Africa will wear pink against \u003cb\u003eIndia\u003c/b\u003e at ...",
+   "link": "http://www.google.com/appserve/mkt/p/AFOm0uFMo3gbDy29kU_0qcqK0cmRaeDLDi3NMjZjQKvMHAYAhng4uvaFBoR4tD8fF_bLs1WJXIwB-bzc3NiTSNczM5MfggJvOLkHXLvTHtiwMl_JT1g-vu7-oYWsJ-TvqpQ6rV7WRO6_W2P2Hd3LzDE10H793IxYUDhaoK58LuYeiX6FYHnqJnBksfno_ZE1k8r0az6oBApkBMl1xiF1yRxMfYsiBgrCNqIuW_06UiA2uPhTUDAe93VlcbDm",
+   "displayLink": "www.google.com",
+   "snippet": "2 days ago ... Pink will be the colour at New Wanderers Stadium, Johannesburg on Saturday \nas hosts, South Africa square-off against India in the fourth ODI.",
+   "htmlSnippet": "2 days ago \u003cb\u003e...\u003c/b\u003e Pink will be the colour at New Wanderers Stadium, Johannesburg on Saturday \u003cbr\u003e\nas hosts, South Africa square-off against \u003cb\u003eIndia\u003c/b\u003e in the fourth ODI.",
+   "cacheId": "AU8XzpZobCkJ",
+   "formattedUrl": "www.google.com/.../AFOm0uFMo3gbDy29kU_ 0qcqK0cmRaeDLDi3NMjZjQKvMHAYAhng4uvaFBoR4tD8fF_ ...",
+   "htmlFormattedUrl": "www.google.com/.../AFOm0uFMo3gbDy29kU_ 0qcqK0cmRaeDLDi3NMjZjQKvMHAYAhng4uvaFBoR4tD8fF_ ...",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "301",
+      "height": "167",
+      "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSnKfJIAH2eJBhaj2HWcSCfAGoqegMaJoFvAMNqMt3uXfc3uuQZxe7swaUT"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=990",
+      "news_keywords": "Pink ODI, South Africa national cricket team, india vs south africa, AB de Villiers, Chris Morris, Virat Kohli, India national cricket team, cricket, indian express",
+      "msvalidate.01": "CCA9DA5B985004F4462DA743E776C636",
+      "fb:pages": "163648403825",
+      "ia:markup_url": "http://indianexpress.com/article/sports/cricket/pink-odi-why-south-africa-will-wear-pink-against-india-at-johannesburg-ind-vs-sa-5058506/?ia_markup=1",
+      "application-name": "The Indian Express",
+      "msapplication-window": "width=device-width;height=device-height",
+      "msapplication-tooltip": "Latest News, Breaking News Live, Current Headlines, India News Online",
+      "msapplication-task": "name=Subscribe;action-uri=http://indianexpress.com/feed/;icon-uri=http://0.gravatar.com/blavatar/efe0300e7f891c5c802ed340f6b20b67?s=16",
+      "majestic-site-verification": "MJ12_ad7db024-a46c-482a-bb2f-e1ae09432a65",
+      "og:type": "article",
+      "og:url": "http://indianexpress.com/article/sports/cricket/pink-odi-why-south-africa-will-wear-pink-against-india-at-johannesburg-ind-vs-sa-5058506/",
+      "og:site_name": "The Indian Express",
+      "og:title": "Pink ODI: Why South Africa will wear pink against India at Johannesburg",
+      "og:locale": "en_US",
+      "og:image": "http://images.indianexpress.com/2018/02/pink-odi759.jpg?w=759",
+      "og:image:type": "image/jpeg",
+      "og:image:width": "759",
+      "og:image:height": "422",
+      "og:description": "Pink will be the colour at New Wanderers Stadium, Johannesburg on Saturday as hosts, South Africa square-off against India in the fourth ODI.",
+      "og:updated_time": "February 10, 2018 11:17 pm",
+      "twitter:card": "summary_large_image",
+      "twitter:site": "The Indian Express",
+      "twitter:creator": "@indianexpress",
+      "twitter:url": "http://indianexpress.com/article/sports/cricket/pink-odi-why-south-africa-will-wear-pink-against-india-at-johannesburg-ind-vs-sa-5058506/",
+      "twitter:title": "Pink ODI: Why South Africa will wear pink against India at Johannesburg",
+      "twitter:description": "Pink will be the colour at New Wanderers Stadium, Johannesburg on Saturday as hosts, South Africa square-off against India in the fourth ODI.",
+      "twitter:image": "http://images.indianexpress.com/2018/02/pink-odi759.jpg?w=759",
+      "twitter:image:width": "759",
+      "twitter:image:height": "422",
+      "article:published_time": "February 10, 2018 3:51 pm",
+      "article:modified_time": "February 10, 2018 11:17 pm"
+     }
+    ],
+    "article": [
+     {
+      "thumbnailurl": "http://images.indianexpress.com/2018/02/pink-odi759.jpg?w=200",
+      "description": "Pink will be the colour at New Wanderers Stadium, Johannesburg on Saturday as hosts, South Africa square-off against India in the fourth ODI.",
+      "author": "Express Web Desk",
+      "mainentityofpage": "http://indianexpress.com/article/sports/cricket/pink-odi-why-south-africa-will-wear-pink-against-india-at-johannesburg-ind-vs-sa-5058506/",
+      "name": "The Indian Express",
+      "url": "http://indianexpress.com/article/sports/cricket/pink-odi-why-south-africa-will-wear-pink-against-india-at-johannesburg-ind-vs-sa-5058506/",
+      "headline": "Pink ODI: Why South Africa will wear pink against India at Johannesburg",
+      "datepublished": "February 10, 2018 3:51 pm",
+      "datemodified": "February 10, 2018 11:17 pm",
+      "inlanguage": "English",
+      "articlesection": "sports news",
+      "articlebody": "0Shares Share By: Express Web Desk | Updated: February 10, 2018 11:17 pm Pink will be the theme at New Wanderers Stadium on Saturday. (Source: youtube) Related News ‘Mahi-way’: The art,..."
+     }
+    ],
+    "breadcrumb": [
+     {
+      "url": "Home",
+      "title": "Home"
+     },
+     {
+      "url": "Sports",
+      "title": "Sports"
+     },
+     {
+      "url": "Cricket",
+      "title": "Cricket"
+     }
+    ],
+    "imageobject": [
+     {
+      "url": "http://images.indianexpress.com/2017/10/ie-logo-new-white.png",
+      "name": "The Indian Express",
+      "width": "344",
+      "height": "37"
+     },
+     {
+      "url": "http://images.indianexpress.com/2018/02/pink-odi759.jpg?w=759",
+      "width": "759",
+      "height": "422"
+     }
+    ],
+    "organization": [
+     {
+      "url": "http://indianexpress.com/",
+      "name": "The Indian Express"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "http://www.samacharnama.com/wp-content/uploads/2018/02/pink-odi759.jpg"
+     }
+    ]
+   }
+  }
+ ]
+}

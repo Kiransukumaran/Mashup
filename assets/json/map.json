@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Thiruvananthapuram",
+               "short_name" : "TVM",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Thiruvananthapuram",
+               "short_name" : "TVM",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Kerala",
+               "short_name" : "KL",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "India",
+               "short_name" : "IN",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Thiruvananthapuram, Kerala, India",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 8.6127611,
+                  "lng" : 77.0070362
+               },
+               "southwest" : {
+                  "lat" : 8.3867048,
+                  "lng" : 76.84129709999999
+               }
+            },
+            "location" : {
+               "lat" : 8.524139099999999,
+               "lng" : 76.9366376
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 8.6127611,
+                  "lng" : 77.0070362
+               },
+               "southwest" : {
+                  "lat" : 8.3867048,
+                  "lng" : 76.84129709999999
+               }
+            }
+         },
+         "place_id" : "ChIJR827Bbi7BTsRy4FcXKufQxU",
+         "types" : [ "locality", "political" ]
+      }
+   ],
+   "status" : "OK"
+}
