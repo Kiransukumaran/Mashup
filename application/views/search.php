@@ -39,7 +39,11 @@
   <br>
  -->  
  <h1 class="font-styles">Search It : Profiler</h1>
-<form class="form-style" method="POST" action="http://localhost/project/index.php/b">
+<form class="form-styles" style="float: right;padding-top: 200px;" method="POST" action="http://localhost/project/index.php/people">
+  <select  class="submits" name="option">
+    <option>Location</option>
+    <option>People</option>
+  </select>
   <input type="text" class="submits" name="Keyword" placeholder="Search..." autofocus="true" required="true">
   <input type="submit" class="submits" value="Search">
 
@@ -47,8 +51,8 @@
 </form>
   
   <script src='https://use.edgefonts.net/amaranth.js'></script>
-<footer style="padding-top: 360px;">
-<pre>&copy AK Creations                                                                          Developed by Arya,Kiran,Sreedev,Nithin
+<footer style="padding-top: 360px;color: black;">
+<pre>&copy Mashup Trios                                                                          Developed by Arya,Kiran,Sreedev,Nithin Shoji 
 </pre>
 </footer>
 <script type="text/javascript">

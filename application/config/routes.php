@@ -65,10 +65,11 @@ $route['test'] = 'Test/index';
 
 $route['ex'] = 'Ex/loadPage';
 $route['b'] = 'B2/index';
+$route['img'] = 'ImageController/index';
 
 $route['project'] = 'IntegratedController/dataRecognize';
 
-// $route['news'] = 'NewsController/news';
+$route['news'] = 'NewsController/getNews';
 $route['location'] = 'LocationController/locationDetails';
 $route['people'] = 'PeopleController/getPeopleData';
 $route['snow'] = 'LocationController/index';

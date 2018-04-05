@@ -1,5 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
+include(APPPATH.'libraries/ContentExtractor.php');
+include(APPPATH.'libraries/wiky.inc.php');
 
 class NewsController extends CI_Controller {
 
@@ -26,42 +28,24 @@ class NewsController extends CI_Controller {
 			$this->load->view('index');
 		}
 	}
-	public function callApi()
+	public function getNews()
 	{	
 		if( $this->input->post() ){
-			// Receive the keyword from. 
-			$input = $this->input->post('Keyword');
-			// Fetching data.
-			$response = file_get_contents('/var/www/html/project/assets/json/apple_news.json');
-
-			// Decode JSON data.
-			$response = json_decode($response);
-			// Taking necessary values.
-			$source = $response->articles[0]->source->name;
-			$author = $response->articles[0]->author;
-			$title = $response->articles[0]->title;
-			$description = $response->articles[0]->description;
-			$urlToImage = $response->articles[0]->urlToImage;
-			$publishedAt = $response->articles[0]->publishedAt;
-			// Store that values to an array.
-			$credentials=array(
-				'source' => $source,
-				'author' => $author,
-				'title' => $title,
-				'description' => $description,
-				'urlToImage' => $urlToImage,
-				'publishedAt' => $publishedAt);
-			var_dump($credentials); die;
+			$keyw = $this->input->post('Keyword');
+			$keyw = ucfirst($keyw);
+			$keyw = urlencode($keyw);
 			
-			// Transfer it to the view.
-			$this->load->view('output');
-
-			// Testing Purpose
-			// var_dump($response->articles[0]->source->name); die;
+			
+			// "https://www.bing.com/images/search?q=India"
+			// var_dump($credentials); die;
+			$this->load->view('outputPeople',$credentials);
+			
 		} else {
-			$this->load->view('news');
+			$this->load->view('search');
 		}	
 
 	}
 	
 }
+
+
