@@ -24,7 +24,8 @@ class BingController extends CI_Controller {
     {
         if ($this->input->post('Keyword')) {
             
-            $term = $this->input->post('Keyword');
+            $term = urlencode($this->input->post('Keyword'));
+            // $term = 
             $accessKey = '6faa87ec09014447b209029c68f5b20c';
             $endpoint = 'https://api.cognitive.microsoft.com/bing/v7.0/news';
 
@@ -41,7 +42,7 @@ class BingController extends CI_Controller {
 
                 // Perform the Web request and get the JSON response
                 $context = stream_context_create($options);
-                $result = file_get_contents($url . "?q=" . urlencode($query).'&responseFilter=news%2Cimages&value='.urlencode($query).'', false, $context);
+                $result = file_get_contents($url . "?q=" .$query, false, $context);
 
                 // Extract Bing HTTP headers
                 $headers = array();
@@ -83,17 +84,27 @@ class BingController extends CI_Controller {
                 $urls = array();
                 $url_data = array();
                 // $l = $data->webPages;
-                for ($i=0; $i <10 ; $i++) { 
+                // for ($i=0; $i <10 ; $i++) { 
                 $url = $data->webPages->value[$i]->url;
-                $d = file_get_contents($url);
-                array_push($urls, $url);    
-                array_push($url_data, $d);
-                }
                 
-                $id = 1;
-                var_dump($elasticsearch->add("data",$id,$url_data)); die;
-                // var_dump(json_last_error()); die; 
-                var_dump($data); die;
+
+
+
+
+
+
+
+
+
+                // $d = file_get_contents($url);
+                // array_push($urls, $url);    
+                // array_push($url_data, $d);
+                // }
+                
+                // $id = 1;
+                // var_dump($elasticsearch->add("data",$id,$url_data)); die;
+                // // var_dump(json_last_error()); die; 
+                // var_dump($data); die;
             } else {
 
                 print("Invalid Bing Search API subscription key!\n");

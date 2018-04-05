@@ -34,13 +34,15 @@
   ?>
   <div class="row">
     <div class="col-xs-12">
-      <h2>Source:<?php echo $name[$i]; ?></h2>
-      <h3>Description:<?php echo $desc[$i]; ?></h3>
+      <h2>Trends:<?php echo $name[$i]; ?></h2>
+      <h3>Description:<?php echo $desc[$i]; ?><a href="<?php echo $url[$i]; ?>">view more</a></h3>
+      <h4></h4>
       
 
     </div>
   </div>
-<?php } ?>
+<?php unset($name[$i]);unset($desc[$i]); }  
+?>
 </div>
 
 

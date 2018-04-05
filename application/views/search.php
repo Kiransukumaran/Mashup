@@ -38,9 +38,9 @@
   <br>
   <br>
  -->  
- <h1 class="font-styles">Search Me</h1>
-<form class="form-style" method="POST" action="http://localhost/project/index.php/people">
-  <input type="text" class="submits" name="Keyword" placeholder="Search...">
+ <h1 class="font-styles">Search It : Profiler</h1>
+<form class="form-style" method="POST" action="http://localhost/project/index.php/b">
+  <input type="text" class="submits" name="Keyword" placeholder="Search..." autofocus="true" required="true">
   <input type="submit" class="submits" value="Search">
 
 

@@ -107,15 +107,19 @@ class PeopleController extends CI_Controller {
 
                 // print "\nJSON Response:\n\n";
                 $dataz = json_encode(json_decode($json), JSON_PRETTY_PRINT);
+                // var_dump($dataz); die;
                 $dataz = json_decode($dataz	);
-                // var_dump($data); die;
+                // var_dump($dataz); die;
                 $name = array();
                 $desc = array();
+                $url = array();
                 for ($i=0; $i <10 ; $i++) { 
                     $n = $dataz->value[$i]->name;
                     $d = $dataz->value[$i]->description;
+                    $u = $dataz->value[$i]->url;
                     array_push($name, $n);
                     array_push($desc, $d);
+                    array_push($url, $u);
                 }
 
                 // var_dump($name); die;
@@ -130,9 +134,10 @@ class PeopleController extends CI_Controller {
 				'key' => $keyw,
 				'data' => $data,
 				'name' => $name,
-				'desc' => $desc);
+				'desc' => $desc,
+				'url' => $url);
 			// var_dump($credentials); die;
-			$this->load->view('outputPeople',$credentials);
+			$this->load->view('outputLocation',$credentials);
 		} else {
 			$this->load->view('search');
 		}

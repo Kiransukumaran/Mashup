@@ -8,7 +8,8 @@
 <div class="container">
   <div class="row">
     <div class="col-xs-12">
-      <h1 style="color: blue;text-align: center;font-size: 250%;border-bottom: 2px dashed red"><b><?php echo $key; ?></b>(Latitude:<?php echo $location['latitude']; ?>,Longitude:<?php echo $location['longitude']; ?>)</h1>
+      <h1 style="color: blue;text-align: center;font-size: 250%;border-bottom: 2px dashed red">Profile:<b><?php echo $key; ?></b></h1>
+      <!-- (Latitude:<?php echo $location['latitude']; ?>,Longitude:<?php echo $location['longitude']; ?>) -->
       <!-- (Latitude:<?php echo $location['latitude']; ?>,Longitude:<?php echo $location['longitude']; ?>) -->
       
     </div>
@@ -26,20 +27,23 @@
 </iframe>
   <div class="row">
     <div class="col-xs-12">
-      <h1 style="text-align: center;font-size: 250%;border-bottom: 2px dotted red">Latest News</h1>
+      <h1 style="text-align: center;font-size: 250%;border-bottom: 2px dotted red">Profile: Latest News</h1>
 
     </div>
+  <?php 
+  for ($i=0; $i <10 ; $i++) { 
+  ?>
   <div class="row">
     <div class="col-xs-12">
-      <h2>Source:<?php echo $news['source']; ?></h2>
-      <h2>Title:<?php echo $news['title']; ?></h2>
-      <h3>Description:<?php echo $news['description']; ?></h3>
-      <a href="<?php echo $news['url']; ?>" target="_blank">View more</a>
-      <img src="<?php echo $news['urlToImage']; ?>" class="img-fluid img-responsive" width="70%" height="auto" alt="urlToImage is not available">
-      <h3>Published At:<?php echo $news['publishedAt']; ?></h3>
+      <h2>Trends:<?php echo $name[$i]; ?></h2>
+      <h3>Description:<?php echo $desc[$i]; ?><a href="<?php echo $url[$i]; ?>">view more</a></h3>
+      <h4></h4>
+      
 
     </div>
   </div>
+<?php unset($name[$i]);unset($desc[$i]); }  
+?>
 
 </div>
 
